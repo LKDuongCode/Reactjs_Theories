@@ -44,7 +44,7 @@ export default function UseEffect() {
 
                 2. chứa callback và 1 mảng rỗng [].
                     cũng được gọi sau khi cpn được mount vào dom.
-                    khác với cách 1, khi cpn được re-render thì useEffectko được gọi lại. 
+                    khác với cách 1, khi cpn được re-render thì useEffect ko được gọi lại. 
 
                 3. chứa callback, [dependency - sự phụ thuộc]
                     cũng được gọi sau khi cpn được mount vào dom
