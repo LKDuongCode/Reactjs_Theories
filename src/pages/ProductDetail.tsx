@@ -6,6 +6,7 @@ export default function ProductDetail() {
   // useParams trả về một đối tượng
   // trong đó chứa các thuộc tính đã được định nghĩa sau dấu : bên app.
   let { id, name, price } = useParams();
+  //gg
   console.log(id);
   return (
     <div>
