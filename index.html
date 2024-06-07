@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        1/ call back:
+         là hàm được truyền làm đối số của hàm khác khi nhiều hàm lồng nhau sẽ dẫn đến callback-hell
+        2/ promise:
+        - sinh ra ở phiên bản es6 (2015) để sử lý tác vụ bất đồng bộ
+        - khi gặp các code dạng callback-hell khi sử lý với promise code nhìn gọn hơn, dễ maitain
+
+        
+        1. Cách dùng khởi tạo promise bằng new Promise()
+        2. bên trong hàm tạo contructer object nhận vào 1 đối số là một function trong function nhận vào 2 tham số(resolve,reject)
+            +khi logic code thành công gọi resolve
+            +khi logic thất bạo gọi reject
+        3. promise
+            .then((data)=>{consolog(data)})
+            .catch((data)=>{consolog(data)})
+
+            khi trong promise có rất nhiều then thì kết quả của then sau sẽ nhận kết quả trả về của hàm then trước
+     -->
+
+    <script>
+      let promise = new Promise((resolve, reject) => {
+        //resolve: giải quyết , thành công
+        //reject: từ chối, thất bại
+        //viết logic code
+        //nếu thành công gọi resolve nếu thất bại goi reject
+
+        // resolve("lấy được data");
+        reject("có lỗi");
+      });
+      promise
+        .then((data) => {
+          console.log(data);
+          return [1];
+        })
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((err) => console.log(err));
+      console.log(promise);
+
+      //////////////////////////////////
+
+      function getData() {
+        try {
+          let getData = fetch("https://jsonplaceholder.typicode.com/users");
+
+          getData
+            .then((user) => user.json())
+            .then((data) => {
+              console.log("giá trị data lấy về", data);
+            })
+            .catch((err) => console.log("lỗi lấy về", err));
+        } catch (error) {}
+      }
+
+      getData();
+    </script>
+  </body>
+</html>

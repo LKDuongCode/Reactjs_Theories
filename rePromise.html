@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //cú pháp
+      let promise = new Promise((resolve, reject) => {});
+      /*
+        - nhận callback gồm hai tham số: 
+            +resolve : function sẽ được gọi nếu code bất đồng bộ trog promise chạy thành công. 
+            +reject : function sẽ được gọi nếu code bất đồng bộ trog promise có lỗi. 
+        - promise cung cấp hai phương thức xử lí sau khi thực hiện:
+            + then(): xử lý sau khi Promise được thực hiện thành công (khi resolve được gọi).
+            + catch(): xử lý sau khi Promise có bất kỳ lỗi nào đó (khi reject được gọi).
+        */
+
+      //example:
+      let p1 = new Promise((resolve, reject) => {
+        resolve(10); //comment dòng này để thấy lỗi.
+        // reject("err");
+      });
+      p1.then((value) => {
+        console.log(value);
+      })
+        //xử lí sau khi promise thành công
+        .then(() => {
+          console.log("finished");
+        })
+        // không thành công
+        .catch((err) => {
+          console.log(err);
+        });
+    </script>
+  </body>
+</html>
