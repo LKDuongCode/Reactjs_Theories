@@ -1,0 +1,125 @@
+{
+  "students": [
+    {
+      "id": 7,
+      "name": "Linda Huff",
+      "email": "garrett88@kerr.net",
+      "dateOfBirth": "08/04/2004"
+    },
+    {
+      "id": 8,
+      "name": "Christopher Velasquez",
+      "email": "dawn52@yahoo.com",
+      "dateOfBirth": "14/07/1999"
+    },
+    {
+      "id": 9,
+      "name": "Caleb Wells",
+      "email": "carla69@ortiz-young.biz",
+      "dateOfBirth": "17/02/1999"
+    },
+    {
+      "id": 10,
+      "name": "Erica Singh",
+      "email": "hillmatthew@smith.com",
+      "dateOfBirth": "08/01/2003"
+    },
+    {
+      "id": 11,
+      "name": "Maria Peters",
+      "email": "wrios@white.org",
+      "dateOfBirth": "11/01/2004"
+    },
+    {
+      "id": 12,
+      "name": "Elizabeth Wilson",
+      "email": "glennholly@hayden-stewart.com",
+      "dateOfBirth": "30/11/2003"
+    },
+    {
+      "id": 13,
+      "name": "Dustin Jenkins",
+      "email": "fgibbs@liu-baker.com",
+      "dateOfBirth": "25/06/2002"
+    },
+    {
+      "id": 14,
+      "name": "Nathan Jimenez",
+      "email": "qgutierrez@gmail.com",
+      "dateOfBirth": "05/05/2006"
+    },
+    {
+      "id": 15,
+      "name": "Andrew Green",
+      "email": "ygarcia@yahoo.com",
+      "dateOfBirth": "11/05/2004"
+    },
+    {
+      "id": 16,
+      "name": "Bryan Melendez",
+      "email": "laurenscott@hotmail.com",
+      "dateOfBirth": "06/08/1998"
+    },
+    {
+      "id": 17,
+      "name": "Brianna Garza",
+      "email": "douglas37@gmail.com",
+      "dateOfBirth": "23/05/2006"
+    },
+    {
+      "id": 18,
+      "name": "Clifford Valdez",
+      "email": "james73@peters.biz",
+      "dateOfBirth": "02/07/1999"
+    },
+    {
+      "id": 19,
+      "name": "Sara Freeman",
+      "email": "stantonheather@yahoo.com",
+      "dateOfBirth": "10/09/2002"
+    },
+    {
+      "id": 20,
+      "name": "Lance Richardson",
+      "email": "mooretyler@johnson-campbell.com",
+      "dateOfBirth": "15/02/2000"
+    },
+    {
+      "id": 21,
+      "name": "Sara Maxwell",
+      "email": "davismatthew@hotmail.com",
+      "dateOfBirth": "11/07/2002"
+    },
+    {
+      "id": 687648,
+      "name": "Nguyễn Văn A",
+      "dateOfBirth": "2024-05-27",
+      "email": "nva@gmail.com"
+    },
+    {
+      "id": 623080,
+      "name": "Nguyễn Văn B",
+      "dateOfBirth": "2024-06-03",
+      "email": "nvb@gmail.com"
+    },
+    {
+      "id": 853757,
+      "name": "Nguyễn Văn C",
+      "dateOfBirth": "2024-06-03",
+      "email": "nvc@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "name": "Phòng 410",
+      "comments": [
+        {
+          "id": 1,
+          "content": "123",
+          "userId": 1
+        }
+      ]
+    }
+  ]
+}
