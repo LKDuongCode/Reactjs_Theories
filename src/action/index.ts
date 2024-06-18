@@ -1,9 +1,10 @@
 //tách vào đây cho gọn
 
-export let actionCount = (type:any,action:any)=>{
+export let actionCount = (type:any,value:any)=>{
     return {
         type: type ,
-        payload:action,
+        payload:value,
+        
     }
 }
 

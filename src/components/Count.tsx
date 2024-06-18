@@ -9,7 +9,7 @@ export default function Count() {
   [...] state phải là state mới thì mới được, nếu không thì không cập nhật UI.
   */
 
-  let stateCount: any = useSelector((state) => {
+  let stateCount: any = useSelector((state: any) => {
     return state;
   });
 

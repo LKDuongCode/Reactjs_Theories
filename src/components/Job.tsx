@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useReducer } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function Job() {
@@ -11,6 +11,7 @@ export default function Job() {
   let stateJob: any = useSelector((state) => {
     return state;
   });
+
   //   console.log(stateJob);
   let dispath = useDispatch();
   let addJob = () => {

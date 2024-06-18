@@ -4,6 +4,7 @@ let initCount:number = 0;
 
 // create a function reducerCount
 let reducerCount = (state=initCount,action:any)=>{
+    
     switch (action.type) {
         case 'INCREASE':
             return state + action.payload;
