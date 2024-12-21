@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "lửa trùa",
+      "requestId": "_z_Z2xZ4pxtRw_GIMFIC9",
+      "signal": {}
+    },
+    {
+      "name": "khá bảnh",
+      "id": 4,
+      "requestId": "6_8FlTnvs0yVsEjcckGq3",
+      "signal": {}
+    },
+    {
+      "name": "khá bản",
+      "id": 5,
+      "requestId": "x_VmowSMIsZJVMagLW-lG",
+      "signal": {}
+    },
+    {
+      "name": "khá bảnh",
+      "id": 6,
+      "requestId": "BWOV1EJpq_q7vinclkVUq",
+      "signal": {}
+    },
+    {
+      "name": "khá bả",
+      "id": 7
+    }
+  ]
+}
